@@ -4,7 +4,7 @@ Main
 
 Function Update(host, api_key)
 	Dim url
-	url = "http://zonomi.com/app/dns/dyndns.jsp?host=<HOST>&api_key=<API_KEY>"
+	url = "https://zonomi.com/app/dns/dyndns.jsp?host=<HOST>&api_key=<API_KEY>"
 
 	Dim xhr
 	set xhr = createobject("microsoft.xmlhttp")
